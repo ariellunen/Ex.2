@@ -1,0 +1,335 @@
+*{margin: 0; padding: 0;}
+
+header, main, footer, nav, aside, section, div  {
+    display: block;
+}
+
+body{background-color:#171932}
+
+/*----------HEADER-----------*/
+header{
+    width: 100%;
+    margin-top: 20px;
+}
+
+/*---------LOGO -----------*/
+.upBar{
+    height: 96px;
+    width: 100%;
+}
+
+header:hover{
+    text-decoration: underline;
+}
+
+#logo {
+    background-image: url("../images/Logo.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+    margin-left: 16px;
+    text-decoration: none;
+}
+
+#logo span{
+    margin-left: 80px;
+    margin-top: 20px;
+    font-family: Carter One;
+    font-size: 40px;
+    color: #FFFFFF;
+    align-items: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: flex;
+}
+
+/*------------COVER PIC SHENKAR1------------*/
+#cover{
+    width: 100%;
+    height: 331px;
+    margin-left: 0px;
+}
+
+/*-------------4 IMG TOP PAGE SHENKAR2---------*/
+#firstImages{
+    margin-left: 17px;
+    margin-bottom: 30px;
+}
+
+#firstImages img{
+    margin-right: 20px;
+}
+
+.smallImage{
+    margin-bottom: 45px;
+}
+
+/*--------NEW-YORK-------------------*/
+
+.new-york-h1{
+    margin-top: 11px;
+    margin-left: 16px;
+    color: #ffffff;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 58px;
+    display: flex;
+    text-transform: uppercase;
+}
+
+/*--------USA----------------------*/
+
+.new-york-h1 span{
+    margin-top: 21px;
+    margin-left: 18px;
+    color: #ffffff;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 30px;
+}
+
+/*----------------main nav Shenkar 2-------*/
+
+.topnav{
+    width: 664px;
+    height: 33px;
+    margin-left: 17px;
+    margin-top: 23px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 33px;
+}
+
+.topnav a{
+    color: white;
+    font-size: 28px;
+    line-height: 33px;
+    border-width: 1px solid  white;
+    text-decoration: none;
+}
+
+.topnav a:hover{
+    text-decoration: underline;
+}
+
+#SecondNav{
+    margin-top: 50px;
+    color: white;
+}
+
+#SecondNav p{
+    width: 367px;
+    margin-left: 17px;
+    margin-bottom: 15px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+/*----------------------logos-list Shenkar 2-------------------*/
+
+.list-logos{
+    list-style: none;
+    margin-top: 26px;
+    margin-left: 16px;
+}
+
+.list-logos li{
+    background: url("../images/Logo.png") no-repeat;
+    width: 100%;
+    height: 48px;
+    padding: 4px;
+}
+
+.list-logos li span{
+    padding-top: 16px;
+    font-family: Open Sans;
+    line-height: 50px;
+    color: #FFFFFF;
+    margin-left: 64px;
+}
+
+/*------------------5 Sections Shenkar 2----------------*/
+
+.Allsections{
+    width: 367px;
+    height: 132px;
+    margin-left: 17px;
+    margin-top: 16px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+
+    color: #FFFFFF;
+}
+
+h2{
+    width: 206px;
+    height: 43px;
+    margin-left: 16px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 41px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+#Secation1{
+    margin-top: 45px;
+    color: white;
+}
+
+#Section2{
+    margin-top: 45px;
+}
+
+#Section3{
+    margin-top: 71px;
+}
+
+#Section4{
+    margin-top: 80px;
+}
+
+#Section5{
+    margin-top: 81px;
+}
+
+
+/*------------------Middle page Shenkar  - 3Pic the same---------------------*/
+
+.main-images{
+    background-color: #9B51E0;
+    display: inline-block;
+    box-shadow: 0px 2px 7px rgba(255, 255, 255, 0.3);
+    margin-left: 16px;
+    border-radius: 5px;
+    margin-top: 18px;
+    margin-bottom: 69px;
+}
+
+.advenLink{
+    width: 265px;
+    border-radius: 5px;
+    display: block;
+    padding:16px 0;
+    text-decoration: none;
+}
+
+
+.advenLink span{
+    color: white;
+    display: inline-block;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+#icon-1{
+    background: url("../images/Group.png") no-repeat;
+    width: 13px;
+    height: 17.5px;
+    margin-left: 17px;
+    margin-bottom: -5px;
+}
+
+#icon-2{
+    background: url("../images/Group\ \(1\).png")no-repeat;
+    width: 19px;
+    height: 19px;
+    margin-left: 10px;
+    margin-bottom: -5px;
+}
+
+#icon-3{
+    background: url("../images/Group\ \(2\).png")no-repeat;
+    width: 31px;
+    height: 19px;
+    margin-bottom: -5px;
+}
+
+#icon-4{
+    background: url("../images/Group\ \(3\).png")no-repeat;
+    width: 19px;
+    height: 19px;
+    margin-bottom: -5px;
+}
+
+
+/*------------------FOTTER------------------------------*/
+footer{
+    background-color:  #9B51E0;
+    width: 100%;
+    height: 54px;
+    margin-left: -2px;
+    margin-top: 51px;
+    margin-bottom: 0px;
+}
+
+.site-fotter{
+    width: 120px;
+    height: 24px;
+    opacity: 0.4;
+    background-color:  #9B51E0 ;
+    margin: 12px 16px;
+}
+
+footer #copyRight{
+    height: 24px;
+    background-color: #9B51E0;
+    color: #FFFFFF;
+    opacity: 0.4;
+    margin-left: 88%;
+}
+
+/*------------------FOOTER - social media icons---------------------*/
+
+
+footer #Twitter{
+    background: url("../images/Twitter.png") no-repeat;
+    width: 24px;
+    height: 47px;
+    display: inline-block;
+}
+footer #Linkdin{
+    background: url("../images/Linkedin.png") no-repeat;
+    width: 24px;
+    height: 47px;
+    display: inline-block;
+
+}
+footer #Google{
+    background: url("../images/Google.png") no-repeat;
+    width: 24px;
+    height: 47px;
+    display: inline-block;
+
+}
+
+footer #facebook{
+  background: url("../images/Facebook.png") no-repeat;
+  width: 24px;
+  height: 47px;
+  display: inline-block;
+}
+
+
